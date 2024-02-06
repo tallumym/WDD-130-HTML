@@ -1,0 +1,48 @@
+content{
+    max-width: 1600px;
+}
+body {
+    background-color: #557ea0; 
+}
+header {
+    background-color:rgba(16, 95, 33, 0.7);
+}
+nav a:hover {
+    background-color: rgb(32, 94, 129);
+    color: #ffffff
+}
+.book, .join{
+    background-color:rgb(103, 91, 207);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+}
+.book:hover, .join:hover{
+    color:rgb(255, 255, 255)
+}
+.msg{
+    background-color:rgb(48, 149, 156)
+}
+#background{
+    height: 200px;
+}
+footer{
+    background-color:rgb(103, 91, 207);
+    font-size: 1.5em;
+
+}
+img{
+    width: 500px;
+    
+}
+.logo{
+    width:300px;
+}
+.icon{
+    width:150px;
+}
+nav a {
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+}
