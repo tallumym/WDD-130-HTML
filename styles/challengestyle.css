@@ -1,0 +1,16 @@
+main img{
+    max-width: 100%;
+}
+footer img{
+    max-width:150px;
+    border-radius: 50%;
+    margin: 30px ;
+    border: 7px solid rgb(71, 68, 68);; 
+}
+footer{
+    background-color:gray;
+}
+body{
+    text-align: center;
+}
+
