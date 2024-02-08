@@ -1,51 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 content{
     max-width: 1600px;
 }
+.home-title{
+    margin-top: 10px;
+}
+
+#logo_link{
+    padding-top: 5px;
+}
 body {
     background-color: #557ea0; 
+    font-family: Lobster;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 header {
     background-color:rgba(16, 95, 33, 0.7);
+    text-align:left;
 }
 nav a:hover {
     background-color: rgb(32, 94, 129);
-    color: #ffffff
+    color: #ffffff;
 }
 .book, .join{
     background-color:rgb(103, 91, 207);
     color: rgb(0, 0, 0);
     text-align: center;
     text-decoration: none;
+    font-family: Lobster;
+    font-size:18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     color:rgb(255, 255, 255)
 }
+
 .msg{
-    background-color:rgb(48, 149, 156)
+    background-color:rgb(48, 149, 156);
+    line-height: 1.5em;
+    padding: 35px;
+}
+.msg p{
+    font-family: Lobster;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 #background{
     height: 200px;
+    background-color: #b29ac9;
 }
 footer{
     background-color:rgb(103, 91, 207);
     font-size: 1.5em;
-
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 img{
-    width: 500px;
-    
+    max-width:100%;
 }
+
 .logo{
-    width:300px;
+    width:150px;
 }
 .icon{
-    width:150px;
+    width:100px;
+    padding-top:10px;
 }
 nav a {
     text-align: center;
     color: #000000;
     text-decoration: none;
+    padding: 35px;
 }
 footer img{
     width:50px;
+}
+
+.home-title {
+    font-family: Lobster;
+    font-size: 2em;
+}
+h2{
+    margin: 0;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid #d9c2a3;
+}
+main section img{
+    box-sizing: border-box;
 }
